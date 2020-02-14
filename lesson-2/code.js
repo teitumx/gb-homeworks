@@ -65,12 +65,11 @@ function sum(a, b) {
     return a + b
 };
 
-// /**
-//  * Функция возвращает разницу двух чисел
-//  * @param {num} a первый параметр
-//  * @param {num} b второй параметр
-//  * @returns {num} разница двух параметров
-//  */
+/**
+ * 
+ * @param {*} a 
+ * @param {*} b 
+ */
 function minus(a, b) {
     return a - b
 };
