@@ -1,0 +1,24 @@
+.modal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    max-width: 100%;
+    height: 400px;
+    max-height: 100%;
+    overflow: auto;
+    background-color: rgb(179, 179, 179);
+}
+
+.close-button {
+    height: 50px;
+    width: 100px;
+    background-color: #fff;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
