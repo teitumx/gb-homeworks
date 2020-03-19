@@ -46,14 +46,13 @@ class ProductList {
 
     //  Метод, определяющий суммарную стоимость всех товаров.
     basketCount() {
-        let totalSum = 0;
+        let sum = 0;
         for (let products of this.goods) {
-            let sum = products.price;
-            totalSum += products.price;
+            sum += products.price;
         };
 
         let basketInfo = document.querySelector('.basket-info');
-        basketInfo.insertAdjacentHTML('afterbegin', `Сумма всех товаров: ${totalSum}`);
+        basketInfo.insertAdjacentHTML('afterbegin', `Сумма всех товаров: ${sum}`);
     }
 }
 
